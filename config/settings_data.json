@@ -250,7 +250,26 @@
       },
       "1629690993b662b2ac": {
         "type": "slider",
+        "blocks": {
+          "1057748e-0780-4d7f-9fdc-c8652d2b76ae": {
+            "type": "slide",
+            "settings": {
+              "overlay_opacity": 0,
+              "heading": "",
+              "description": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1057748e-0780-4d7f-9fdc-c8652d2b76ae"
+        ],
         "settings": {
+          "autoplay": false,
+          "autoplay_speed": 2,
+          "transition_speed": 2,
+          "height": "medium"
         }
       }
     },
