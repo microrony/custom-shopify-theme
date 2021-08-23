@@ -72,44 +72,6 @@
           "button_link": ""
         }
       },
-      "slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "slideshow-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/aerial-photo-of-paved-road-through-the-desert.jpg",
-              "alignment": "center center",
-              "slide_title": "Image slide",
-              "subheading": "Tell your brand's story through images",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "1492095993817": {
-            "type": "image",
-            "settings": {
-              "alignment": "center",
-              "slide_title": "Image slide",
-              "subheading": "Tell your brand's story through images",
-              "button_label": "",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "slideshow-0",
-          "1492095993817"
-        ],
-        "settings": {
-          "slideshow_height": "medium",
-          "text_size": "medium",
-          "text_alignment": "center center",
-          "show_overlay": true,
-          "autorotate": false,
-          "autorotate_speed": 5
-        }
-      },
       "featured-collections": {
         "type": "collection",
         "settings": {
@@ -510,35 +472,6 @@
             "text_size": "large"
           }
         },
-        "slideshow": {
-          "type": "slideshow",
-          "blocks": {
-            "slideshow-0": {
-              "type": "image",
-              "settings": {
-                "image": "",
-                "alignment": "center center"
-              }
-            },
-            "1492095993817": {
-              "type": "image",
-              "settings": {
-                "image": "",
-                "alignment": "center"
-              }
-            }
-          },
-          "block_order": [
-            "slideshow-0",
-            "1492095993817"
-          ],
-          "settings": {
-            "slideshow_height": "medium",
-            "text_size": "medium",
-            "autorotate": false,
-            "autorotate_speed": 5
-          }
-        },
         "featured-collections": {
           "type": "collection",
           "settings": {
@@ -693,7 +626,6 @@
       "content_for_index": [
         "hero",
         "featured-collections",
-        "slideshow",
         "1492033924902",
         "1492096252560",
         "1492033877875",
