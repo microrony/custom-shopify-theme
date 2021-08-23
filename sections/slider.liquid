@@ -1,7 +1,54 @@
 {% schema %}
 {
 	"name": "Image Slider",
-	"settings": [],
+	"tag": "section",
+	"settings": [
+	{
+		"type": "checkbox",
+  "id": "autoplay",
+  "label": "Autoplay",
+  "default": false
+	},
+	{
+		"type": "range",
+  "id": "autoplay_speed",
+  "label": "Autoplay Speed",
+	"min": 0,
+  "max": 12,
+  "step": 1,
+  "default": 2
+	},
+	{
+		"type": "range",
+  "id": "transition_speed",
+  "label": "Transition Speed",
+	"min": 0,
+  "max": 12,
+  "step": 1,
+  "default": 2
+	},
+	{
+		"type": "select",
+		"id": "height",
+		"label": "Height",
+		"options": [
+			{
+				"value": "full",
+				"label": "Full"
+			},
+			{
+				"value": "medium",
+				"label": "Medium"
+			},
+			{
+				"value": "small",
+				"label": "Small"
+			}
+		],
+		"default": "medium"
+	}
+	
+	],
 	"presets": [
     {
       "category": "Image",
