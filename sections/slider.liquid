@@ -5,11 +5,6 @@
 	"class": "slider",
 	"settings": [
 	{
-		"type": "article",
-		"id": "featured_article",
-		"label": "Featured article"
-	},
-	{
 		"type": "checkbox",
   "id": "autoplay",
   "label": "Autoplay",
@@ -22,6 +17,7 @@
 	"min": 0,
   "max": 12,
   "step": 1,
+	"unit": "%",
   "default": 2
 	},
 	{
@@ -54,6 +50,61 @@
 		"default": "medium"
 	}
 	
+	],
+	"blocks": [
+	{
+		"name": "Slide",
+		"type": "slide",
+		"settings": [
+		{
+			"type": "header",
+			"content": "Image"
+		},
+		{
+			"type": "image_picker",
+			"label": "Image",
+			"id": "image"
+		},
+		{
+			"type": "range",
+			"id": "overlay_opacity",
+			"min": 0,
+			"max": 100,
+			"step": 1,
+			"unit": "%",
+			"label": "Overlay Opacity",
+			"default": 16
+		},
+		{
+			"type": "header",
+			"content": "Text"
+		},
+		{
+			"type": "text",
+			"label": "Heading",
+			"id": "heading"
+		},
+		{
+			"type": "text",
+			"label": "Description",
+			"id": "description"
+		},
+		{
+			"type": "header",
+			"content": "Button"
+		},
+		{
+			"type": "text",
+			"label": "Button text",
+			"id": "button_text"
+		},
+		{
+			"type": "url",
+			"label": "Button link",
+			"id": "button_link"
+		}
+		]
+	}
 	],
 	"presets": [
 	{
