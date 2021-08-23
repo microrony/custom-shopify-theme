@@ -247,9 +247,15 @@
           "show_locale_selector": true,
           "show_currency_selector": true
         }
+      },
+      "1629690993b662b2ac": {
+        "type": "slider",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
+      "1629690993b662b2ac",
       "hero",
       "featured-collections",
       "1492033924902",
